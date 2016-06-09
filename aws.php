@@ -7,7 +7,7 @@ use Aws\Common\Credentials\Credentials;
 use Aws\CloudWatch\CloudWatchClient;
 
 
-$credentials = new Credentials('AKIAI2HAXALKFOXUXW5A', 'wpP3m5gU9z2u9Hlf57wiubXqGm5nW+ojrzKEPB52');
+
 
 $s3Client = S3Client::factory(array(
     'credentials' => $credentials
